@@ -29,6 +29,10 @@ Solarized dark             |  Solarized Ocean
 
 - if you have cayo perico ipl go to map-postalmap/client.lua and set EnableCayoMiniMap to true
 
+> **Todo**
+- Version with street names
+- Version with postal codes
+
 > **Discord**
 
 http://discord.bbv.world/
