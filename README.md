@@ -12,7 +12,7 @@ https://www.gta5-mods.com/misc/atlas-colored-map-16k-that-also-works-in-radar
 
 > **Preview**
 
-Solarized dark             |  Solarized Ocean
+Images             |  Images
 :-------------------------:|:-------------------------:
 ![](https://cdn.discordapp.com/attachments/1140248115186782288/1140248382158409818/image.png)  |  ![](https://cdn.discordapp.com/attachments/1140248115186782288/1140248416576884817/image.png)
 ![](https://cdn.discordapp.com/attachments/1140248115186782288/1140248442866761818/image.png)  |  ![](https://cdn.discordapp.com/attachments/1140248115186782288/1140248462047318148/image.png)
