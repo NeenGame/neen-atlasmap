@@ -12,6 +12,18 @@ CreateThread(function()
     SetMapZoomDataLevel(8, 11.0, 0.0, 0.0, 2.0, 3.0) -- ZOOM_LEVEL_GALLERY_MAXIMIZE
 end)
 
+CreateThread(function()
+    while true do
+		Wait(80)
+        local ped = PlayerPedId()
+		if IsPedOnFoot(ped) then
+			SetRadarZoom(1200) -- default 1100
+		elseif IsPedInAnyVehicle(ped, true) then
+			SetRadarZoom(1200) -- default 1100
+		end
+    end
+end)
+
 if EnableCayoMiniMap then
     CreateThread(function()
         while true do
