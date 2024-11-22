@@ -1,6 +1,6 @@
 # neen-atlasmap
 
-![champ](https://cdn.discordapp.com/attachments/1054072664265859162/1140168781038104676/testmap.png)
+![champ](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/atlasmap.png)
 
 > **Original map**
 
@@ -12,12 +12,13 @@ https://www.gta5-mods.com/misc/atlas-colored-map-16k-that-also-works-in-radar
 
 > **Preview**
 
-Images             |  Images
+No Streets             |  With Streets
 :-------------------------:|:-------------------------:
-![](https://cdn.discordapp.com/attachments/1140248115186782288/1140248382158409818/image.png)  |  ![](https://cdn.discordapp.com/attachments/1140248115186782288/1140248416576884817/image.png)
-![](https://cdn.discordapp.com/attachments/1140248115186782288/1140248442866761818/image.png)  |  ![](https://cdn.discordapp.com/attachments/1140248115186782288/1140248462047318148/image.png)
-![](https://cdn.discordapp.com/attachments/1140248115186782288/1140248483329216602/image.png)  |  ![](https://cdn.discordapp.com/attachments/1140248115186782288/1140248503143108718/image.png)
-![](https://cdn.discordapp.com/attachments/1140248115186782288/1140248525305815040/image.png)  |  ![](https://cdn.discordapp.com/attachments/1140248115186782288/1140248563620786176/image.png)
+![](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/Screenshot2024-11-22230001.png)  |  ![](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/streets.png)
+![](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/Screenshot2024-11-22230025.png)  |  ![](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/streets4.png)
+![](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/Screenshot2024-11-22230010.png)  |  ![](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/streets2.png)
+![](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/Screenshot2024-11-22230127.png)  |  ![](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/streets3.png)
+![](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/Screenshot2024-11-22230649.png)  |  ![](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/streets5.png)
 
 > **Installation**
 
