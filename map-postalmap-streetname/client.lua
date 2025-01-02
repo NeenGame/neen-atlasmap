@@ -17,15 +17,31 @@ CreateThread(function()
 		Wait(80)
         local ped = PlayerPedId()
 		if IsPedOnFoot(ped) then
-			SetRadarZoom(1200) -- default 1100
+			SetRadarZoom(1200)
 		elseif IsPedInAnyVehicle(ped, true) then
-			SetRadarZoom(1200) -- default 1100
+			SetRadarZoom(1200)
 		end
     end
 end)
 
 if EnableCayoMiniMap then
+    local function CreateBlip()
+        local BlipCoords = {
+            vec3(4800.85, -6159.22, 0.0),
+            vec3(6420.60, -5169.87, 37.43),
+        }
+        for coords=1, #BlipCoords do
+            local coords = BlipCoords[coords]
+            print(json.encode(coords.x))
+            local blip = AddBlipForCoord(coords.x, coords.y, coords.z)
+            SetBlipSprite(blip, 1)
+            SetBlipAlpha(blip, 0)
+            SetBlipScale(blip, 0.1)
+            SetBlipAsShortRange(blip, true)
+        end
+    end
     CreateThread(function()
+        CreateBlip()
         while true do
             SetRadarAsExteriorThisFrame()
             local coords = vec(4700.0, -5145.0)
