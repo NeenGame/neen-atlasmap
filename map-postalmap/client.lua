@@ -10,18 +10,7 @@ CreateThread(function()
     SetMapZoomDataLevel(6, 450.0, 0.0, 0.1, 1.0, 1.0) -- ZOOM_LEVEL_INTERIOR
     SetMapZoomDataLevel(7, 4.5, 0.0, 0.0, 0.0, 0.0) -- ZOOM_LEVEL_GALLERY
     SetMapZoomDataLevel(8, 11.0, 0.0, 0.0, 2.0, 3.0) -- ZOOM_LEVEL_GALLERY_MAXIMIZE
-end)
-
-CreateThread(function()
-    while true do
-		Wait(80)
-        local ped = PlayerPedId()
-		if IsPedOnFoot(ped) then
-			SetRadarZoom(1200)
-		elseif IsPedInAnyVehicle(ped, true) then
-			SetRadarZoom(1200)
-		end
-    end
+    SetRadarZoom(1200) -- Radar zoom one time on resource start
 end)
 
 if EnableCayoMiniMap then
@@ -32,7 +21,6 @@ if EnableCayoMiniMap then
         }
         for coords=1, #BlipCoords do
             local coords = BlipCoords[coords]
-            print(json.encode(coords.x))
             local blip = AddBlipForCoord(coords.x, coords.y, coords.z)
             SetBlipSprite(blip, 1)
             SetBlipAlpha(blip, 0)
